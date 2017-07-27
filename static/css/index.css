@@ -1,5 +1,10 @@
-nav {
-  background-color: #fff;
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+main {
+  flex: 1 0 auto;
 }
 #logo-container {
   top: 5;
@@ -9,6 +14,6 @@ nav {
   width: 80%;
   object-fit: contain;
 }
-.parallax-container img {
-  object-fit: cover;
+.parallax img {
+  width: 1169px;
 }
