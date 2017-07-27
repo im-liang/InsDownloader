@@ -6,6 +6,7 @@ import tornado.httpserver
 import tornado.ioloop
 import tornado.options
 from uuid import uuid4
+import MySQLdb
 from handlers import *
 
 class ChatHome(object):
