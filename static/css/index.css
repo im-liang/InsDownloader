@@ -1,6 +1,14 @@
-/*.parallax-container {
-  height: "your height here";
-}*/
+nav {
+  background-color: #fff;
+}
+#logo-container {
+  top: 5;
+}
+#logo-img {
+  height: 80%;
+  width: 80%;
+  object-fit: contain;
+}
 .parallax-container img {
   object-fit: cover;
 }

@@ -1,25 +1,41 @@
 <html lang="en">
-  <head>
-    <title>Talkcast</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Libraries CSS-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
-    <!-- Our CSS-->
-    <link rel="stylesheet" href="../static/css/index.css">
-    <!-- Libraries JS-->
-    <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
-    <script src="https://unpkg.com/vue"></script>
-    <!-- Our JS-->
-    <script src="../static/js/index.js"></script>
-  </head>
-  <body>
-    <div class="parallax-container">
-      <div class="parallax"><img src="../static/img/sky.jpg"></div>
+
+<head>
+  <title>Talkcast</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="../static/img/logo/favicon-196x196.png" sizes="196x196" />
+  <!-- Libraries CSS-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+  <!-- Our CSS-->
+  <link rel="stylesheet" href="../static/css/index.css">
+  <!-- Libraries JS-->
+  <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+  <script src="https://unpkg.com/vue"></script>
+  <!-- Our JS-->
+  <script src="../static/js/index.js"></script>
+</head>
+
+<body>
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo" id="logo-container"><img id="logo-img" src="../static/img/logo/favicon-96x96.png"></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="sass.html">Sign in</a></li>
+      </ul>
     </div>
-    <h1>你好 ！{{ session }} <br> 欢迎来到聊天室！</h1>
-    <a href="/home/?n=1&u={{ session }}"> 聊天室一 </a> &nbsp;        <a href="/home/?n=2&u={{ session }}"> 聊天室二 </a>
-  </body>
+  </nav>
+  <div class="parallax-container">
+    <div class="parallax"><img src="../static/img/sky.jpg"></div>
+  </div>
+  <h1>你好 ！{{ session }} <br> 欢迎来到聊天室！</h1>
+  <a href="/home/?n=1&u={{ session }}"> 聊天室一 </a> &nbsp; <a href="/home/?n=2&u={{ session }}"> 聊天室二 </a>
+  <div class="parallax-container">
+    <div class="parallax"><img src="../static/img/sky.jpg"></div>
+  </div>
+  <footer>
+  </footer>
+</body>
 
 </html>
