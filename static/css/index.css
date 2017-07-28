@@ -1,19 +1,24 @@
-body {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-}
-main {
-  flex: 1 0 auto;
-}
 #logo-container {
-  top: 5;
-}
+  top: 5; }
+
 #logo-img {
   height: 80%;
   width: 80%;
-  object-fit: contain;
-}
+  object-fit: contain; }
+
+body {
+  font: Helvetica, sans-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; }
+
+main {
+  flex: 1 0 auto; }
+
 .parallax img {
   width: 1169px;
-}
+  -webkit-filter: grayscale(50%);
+  /* Safari */
+  filter: grayscale(50%); }
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,22 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #fff;
+$secondary-color: #BBDEFB;
+
+@import 'nav';
+
+body {
+  font: $font-stack;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.parallax img {
+  width: 1169px;
+  -webkit-filter: grayscale(50%); /* Safari */
+  filter: grayscale(50%);
+}

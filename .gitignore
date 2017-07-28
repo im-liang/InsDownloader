@@ -1,4 +1,8 @@
 .DS_Store
+# sass compiled files
+.sass-cache/
+*.css.map
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
