@@ -10,7 +10,8 @@ body {
   font: Helvetica, sans-serif;
   display: flex;
   min-height: 100vh;
-  flex-direction: column; }
+  flex-direction: column;
+  background-color: #F9F9F9; }
 
 main {
   flex: 1 0 auto; }

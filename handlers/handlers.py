@@ -6,6 +6,14 @@ class chatBasicHandler(tornado.web.RequestHandler):
         session = uuid4()
         self.render('index.html', session=session)
 
+class signinHandler(tornado.web.RequestHandler):
+    def get(self, *args, **kwargs):
+        self.render('signin.html')
+
+class signupHandler(tornado.web.RequestHandler):
+    def get(self, *args, **kwargs):
+        self.render('signup.html')
+
 class homeHandler(tornado.web.RequestHandler):
     def get(self, *args, **kwargs):
         n = self.get_argument('n')

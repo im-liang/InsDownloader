@@ -1,5 +1,5 @@
 $font-stack:    Helvetica, sans-serif;
-$primary-color: #fff;
+$primary-color: #F9F9F9;
 $secondary-color: #BBDEFB;
 
 @import 'nav';
@@ -9,6 +9,7 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  background-color: $primary-color;
 }
 
 main {
