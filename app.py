@@ -75,7 +75,6 @@ class Application(tornado.web.Application):
             (r'/signup', signupHandler),
             (r'/home/', homeHandler),
             (r'/newChatStatus/', newChatStatus),
-            (r'/(\.\*)', errorHandler),
         ]
 
         settings = {
