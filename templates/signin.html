@@ -15,7 +15,7 @@
   <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
   <!-- Our JS-->
-  <script src="../static/js/index.js"></script>
+  <script src="../static/js/signin.js"></script>
 </head>
 
 <body>
@@ -34,13 +34,19 @@
   </header>
 
   <main>
-    <section>
-      <div class="container">
-        <div class="section">
-          <div class="row">
-            <div class="col s12">
-            </div>
-          </div>
+    <section id="sign-in-container">
+      <div class="row">
+        <div class="input-field col s12">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="email" type="text" class="validate">
+          <label for="text">Username</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <i class="material-icons prefix">lock</i>
+          <input id="email" type="password" class="validate">
+          <label for="password">Password</label>
         </div>
       </div>
     </section>
