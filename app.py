@@ -88,6 +88,5 @@ class Application(tornado.web.Application):
 if __name__ == '__main__':
     tornado.options.parse_command_line()
     server = tornado.httpserver.HTTPServer(Application())
-    host = '0.0.0.0'
-    server.listen(5000, host)
+    server.listen(5000)
     tornado.ioloop.IOLoop.instance().start()

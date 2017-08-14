@@ -1,5 +1,15 @@
+@import 'constant';
 @import 'nav';
 
 #sign-in-container {
-  width: 50%；
+  padding: 10%;
+  background-color: $primary-color;
+}
+
+.row {
+  width: 50%;
+}
+
+#sign-in-button {
+  text-align: center;
 }

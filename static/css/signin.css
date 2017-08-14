@@ -1,4 +1,3 @@
-@charset "UTF-8";
 #logo-container {
   top: 5; }
 
@@ -8,6 +7,13 @@
   object-fit: contain; }
 
 #sign-in-container {
-  width: 50% ；; }
+  padding: 10%;
+  background-color: #F9F9F9; }
+
+.row {
+  width: 50%; }
+
+#sign-in-button {
+  text-align: center; }
 
 /*# sourceMappingURL=signin.css.map */

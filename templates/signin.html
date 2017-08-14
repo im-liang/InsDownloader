@@ -34,19 +34,44 @@
   </header>
 
   <main>
-    <section id="sign-in-container">
+    <section id="sign-in-container" v-if="signin">
       <div class="row">
         <div class="input-field col s12">
           <i class="material-icons prefix">account_circle</i>
           <input id="email" type="text" class="validate">
           <label for="text">Username</label>
         </div>
-      </div>
-      <div class="row">
         <div class="input-field col s12">
           <i class="material-icons prefix">lock</i>
           <input id="email" type="password" class="validate">
           <label for="password">Password</label>
+        </div>
+        <div class="input-field col s12" id="sign-in-button">
+          <button class="btn waves-effect waves-light" type="submit" name="action">Sign In
+            <i class="material-icons right">send</i>
+          </button>
+        </div>
+        <div class="input-field col s12">
+          <span>New to Talkcast?</span><a href="/signup">Sign Up</a>
+        </div>
+      </div>
+    </section>
+    <section id="sign-up-container" v-else>
+      <div class="row">
+        <div class="input-field col s12">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="email" type="text" class="validate">
+          <label for="text">Username</label>
+        </div>
+        <div class="input-field col s12">
+          <i class="material-icons prefix">lock</i>
+          <input id="email" type="password" class="validate">
+          <label for="password">Password</label>
+        </div>
+        <div class="input-field col s12" id="sign-in-button">
+          <button class="btn waves-effect waves-light" type="submit" name="action">Sign Up
+            <i class="material-icons right">send</i>
+          </button>
         </div>
       </div>
     </section>
